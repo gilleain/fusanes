@@ -1,10 +1,12 @@
 package test.fusanes;
 
+import fusanes.FusaneGenerator;
+import graph.model.Graph;
+
 import java.io.IOException;
 
 import layout.OuterplanarLayout;
 import layout.Refiner;
-import model.Graph;
 
 import org.junit.Test;
 
@@ -14,7 +16,6 @@ import test.planar.AbstractDrawingTest;
 import draw.Colorer;
 import draw.ParameterSet;
 import draw.SignatureColorer;
-import fusanes.FusaneGenerator;
 
 public class OuterplanarDrawingTest extends AbstractDrawingTest {
     

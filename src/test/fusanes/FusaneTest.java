@@ -1,5 +1,9 @@
 package test.fusanes;
 
+import fusanes.FusaneGenerator;
+import graph.model.Edge;
+import graph.model.Graph;
+
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
@@ -14,20 +18,17 @@ import java.util.Map;
 import javax.imageio.ImageIO;
 
 import layout.OuterplanarLayout;
-import model.Graph;
-import model.Graph.Edge;
 
 import org.junit.Test;
 
-import planar.DualTreeEmbedder;
 import planar.BlockEmbedding;
+import planar.DualTreeEmbedder;
 import planar.Vertex;
 import coloring.AugmentingEdgeColorer;
 import coloring.EdgeColorer;
 import coloring.SimpleExhaustiveEdgeColorer;
 import draw.ParameterSet;
 import draw.Representation;
-import fusanes.FusaneGenerator;
 
 public class FusaneTest {
     

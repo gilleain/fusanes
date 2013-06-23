@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import layout.OuterplanarLayout;
 import layout.Refiner;
-import model.Graph;
 
 import org.junit.Test;
 
@@ -15,6 +14,7 @@ import draw.Colorer;
 import draw.ParameterSet;
 import draw.SignatureColorer;
 import fusanes.FusaneGenerator;
+import graph.model.Graph;
 
 public class FusaneGeneralEmbeddingTest extends AbstractDrawingTest {
     
